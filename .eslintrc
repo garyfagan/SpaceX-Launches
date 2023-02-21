@@ -1,0 +1,14 @@
+{
+  "root": true,
+  "extends": ["eslint:recommended", "plugin:@next/next/recommended", "plugin:@typescript-eslint/recommended"],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": { "project": ["./tsconfig.json"] },
+  "plugins": ["@typescript-eslint"],
+  "env": {
+    "jest": true
+  },
+  "rules": {
+    "quotes": [2, "single", { "avoidEscape": true }],
+    "semi": ["error", "always"]
+  }
+}
