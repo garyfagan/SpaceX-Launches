@@ -1,9 +1,19 @@
+# SpaceX Launches
+
 ## Getting Started
 
-First, run the development server:
+### Development Server
 
-```bash
-npm run dev
-# or
-yarn dev
+Run the development server
+
+```
+yarn && yarn dev
+```
+
+### Storybook
+
+Run the Storybook
+
+```
+yarn storybook
 ```
