@@ -7,7 +7,7 @@ type SerialTooltipProps = {
 
 const SerialTooltip = ({ title }: SerialTooltipProps) => (
   <Tooltip arrow placement="top" title={`Serial: ${title}`}>
-    <IconButton>
+    <IconButton color="secondary">
       <QrCode />
     </IconButton>
   </Tooltip>

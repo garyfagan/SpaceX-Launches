@@ -6,7 +6,6 @@ import Progress from '../Progress/Progress';
 
 import { useLaunches } from '../../hooks/useLaunches';
 
-// TODO: Add types here
 const Launches = () => {
   const { data, isLoading, isError } = useLaunches(10);
 

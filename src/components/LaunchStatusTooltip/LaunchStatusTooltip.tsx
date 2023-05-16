@@ -7,7 +7,7 @@ type LaunchStatusTooltipProps = {
 
 const LaunchStatusTooltip = ({ isSuccessful = false }: LaunchStatusTooltipProps) => (
   <Tooltip arrow placement="top" title={isSuccessful ? 'Successful Launch' : 'Launch Failed'}>
-    <IconButton>{isSuccessful ? <ThumbUp /> : <ThumbDown />}</IconButton>
+    <IconButton color="secondary">{isSuccessful ? <ThumbUp /> : <ThumbDown />}</IconButton>
   </Tooltip>
 );
 
