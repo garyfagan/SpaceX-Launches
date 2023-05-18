@@ -88,7 +88,7 @@ const useLaunches = (limit: number) => {
         serial: launch.cores[0].core.serial,
         success: launch.success,
         image: launch.links.patch.small,
-      }
+      };
     }),
   });
 };
