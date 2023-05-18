@@ -35,7 +35,7 @@ const Card = ({ image, name, date, success, serial, payloads, failures }: CardPr
       <CardActions disableSpacing>
         <LaunchStatusTooltip isSuccessful={success} />
         <SerialTooltip title={serial} />
-        <ExpandMore expand={expanded} onClick={handleExpandClick} aria-expanded={expanded} aria-label="show more">
+        <ExpandMore color="secondary" expand={expanded} onClick={handleExpandClick} aria-expanded={expanded} aria-label="show more">
           <ExpandMoreIcon />
         </ExpandMore>
       </CardActions>
